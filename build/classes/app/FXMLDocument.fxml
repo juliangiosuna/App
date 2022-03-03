@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="app.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="btnSumar" layoutX="54.0" layoutY="29.0" mnemonicParsing="false" onAction="#incrementarContador" prefHeight="39.0" prefWidth="106.0" text="SUMAR" />
+      <Button fx:id="btnReiniciar" layoutX="167.0" layoutY="29.0" mnemonicParsing="false" onAction="#reiniciarContador" prefHeight="39.0" prefWidth="106.0" text="REINICIAR" />
+      <Label fx:id="lblContador" layoutX="119.0" layoutY="81.0" onMouseEntered="#reestablecerFuente" prefHeight="39.0" prefWidth="83.0" text="0" />
+    </children>
+</AnchorPane>
